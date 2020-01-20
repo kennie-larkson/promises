@@ -5,4 +5,6 @@ const myPromise = new Promise((resolve, reject)=>{
     }else{
         reject("Oops!");
     }
+}).then(result => {
+    console.log(result);
 });
