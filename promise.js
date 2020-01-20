@@ -7,4 +7,4 @@ const myPromise = new Promise((resolve, reject)=>{
     }
 }).then(result => {
     console.log(result);
-});
+}).catch(error => { console.log(error)});
